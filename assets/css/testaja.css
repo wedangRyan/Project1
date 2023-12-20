@@ -1,0 +1,15 @@
+@media print {
+  html, body{
+    height:100vh; 
+      margin: 0 !important; 
+      padding: 0 !important;
+      overflow: hidden;
+      visibility: hidden;
+  }
+    #section-to-print {
+      visibility: visible;
+      position: relative;
+      left: 0;
+      top: -150px;
+    }
+  }
